@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+{% include "./includes/nav.html.twig" %}
+<main class="w-full h-auto">
+{% block main %}{% endblock %}
+</main>
+{% include "./includes/footer.html.twig" %}
+{% endblock %}
+
