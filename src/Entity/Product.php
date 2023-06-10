@@ -13,7 +13,7 @@ use Doctrine\ORM\Mapping as ORM;
 class Product
 {
     use CreatedAt;
-
+    use Slug;
     #[ORM\Id]
     #[ORM\GeneratedValue]
     #[ORM\Column]
