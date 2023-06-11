@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use App\Entity\Traits\CreatedAt;
+use App\Entity\Traits\Slug;
 use App\Repository\ProductRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
